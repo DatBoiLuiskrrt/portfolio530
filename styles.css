@@ -81,3 +81,30 @@ body {
   padding-left: 2em;
   padding-top: 1em;
 }
+.my_skills {
+  max-width: 100%;
+  text-align: center;
+  background-color: #4895ef;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.skills_wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2em;
+  color: #ecebff;
+}
+.my_skills h2 {
+  font-size: 2.5rem;
+  color: #ecebff;
+  font-weight: 600;
+}
+.single_skills {
+  padding-right: 1em;
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
