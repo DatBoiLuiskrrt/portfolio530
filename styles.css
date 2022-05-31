@@ -5,6 +5,7 @@
   border: 0;
   font-size: 100%;
   font: inherit;
+  font-family: "Poppins", sans-serif;
 }
 ol,
 ul {
@@ -12,4 +13,71 @@ ul {
 }
 a {
   text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f37c9;
+  color: #ecebff;
+  align-items: center;
+}
+header h2 {
+  padding: 1.5em 0;
+  padding-left: 4em;
+}
+header ul {
+  padding: 1.5em 0;
+  display: flex;
+  padding-right: 4em;
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  padding-right: 2em;
+}
+header ul a {
+  color: #ecebff;
+  background-color: #7400b8;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+}
+body {
+  background-color: #3f37c9;
+}
+.hero {
+  background-color: #3f37c9;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 4em 0;
+}
+.hero h1 {
+  color: #4cc9f0;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #f7df1e;
+  text-decoration-thickness: 5px;
+}
+.hero p {
+  color: #ffff;
+}
+.hero a {
+  padding: 1em 3em;
+  display: inline-block;
+  background-color: #7400b8;
+  color: #ffff;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+.hero_icons {
+  display: flex;
+  max-width: 150px;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+.hero_icons img:second-child {
+  padding-left: 2em;
+  padding-top: 1em;
 }
