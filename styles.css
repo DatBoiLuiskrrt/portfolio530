@@ -21,6 +21,7 @@ header {
   color: #ecebff;
   align-items: center;
 }
+
 header h2 {
   padding: 1.5em 0;
   padding-left: 4em;
@@ -53,7 +54,7 @@ body {
 }
 .hero h1 {
   color: #4cc9f0;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-weight: 600;
 }
 .underline {
@@ -63,6 +64,8 @@ body {
 }
 .hero p {
   color: #ffff;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 .hero a {
   padding: 1em 3em;
@@ -94,6 +97,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding-top: 2em;
   color: #ecebff;
 }
@@ -235,4 +239,56 @@ footer h2 {
 footer p {
   font-weight: 100;
   color: #ecebff;
+}
+@media (max-width: 810px) {
+  .hero {
+    max-width: 80%;
+  }
+  .skills_wrapper {
+    max-width: 80%;
+  }
+  .inputs {
+    width: 80%;
+  }
+  form button {
+    width: 80%;
+  }
+  .projects_wrapper {
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+  .third {
+    margin-top: 0;
+    margin-bottom: 4em;
+  }
+  body {
+    text-align: center;
+  }
+  .hero_icons {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5em;
+  }
+  .hero p {
+    font-size: 1.2rem;
+  }
+  header ul {
+    display: none;
+  }
+  header h2 {
+    padding-left: 2em;
+    font-size: 1.2rem;
+  }
+  .hero {
+    padding: 0;
+  }
+}
+@media (max-width: 700px) {
+  header ul {
+    display: none;
+  }
 }
