@@ -226,6 +226,9 @@ form button {
   border-radius: 10px;
   margin-top: 1em;
 }
+.submit:hover {
+  background-color: #343232;
+}
 footer {
   max-width: 80%;
   margin: 0 auto;
