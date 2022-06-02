@@ -43,6 +43,9 @@ header ul a {
   padding: 0.5em 1em;
   border-radius: 10px;
 }
+header ul a:hover {
+  background-color: #a342db;
+}
 body {
   background-color: #3f37c9;
 }
