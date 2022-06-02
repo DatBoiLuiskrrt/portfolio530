@@ -54,11 +54,13 @@ body {
   max-width: 60%;
   margin: 0 auto;
   padding: 4em 0;
+  text-align: center;
 }
 .hero h1 {
   color: #4cc9f0;
   font-size: 4rem;
   font-weight: 600;
+  padding-bottom: 0.5em;
 }
 .underline {
   text-decoration: underline;
@@ -300,5 +302,11 @@ footer p {
 @media (max-width: 700px) {
   header ul {
     display: none;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero {
+    padding: 0;
   }
 }
