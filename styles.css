@@ -173,6 +173,9 @@ body {
   margin-top: 1em;
   text-align: center;
 }
+.projects_buttons a:hover {
+  background-color: #a342db;
+}
 .form_container {
   text-align: center;
   background-color: #5a29e4;
