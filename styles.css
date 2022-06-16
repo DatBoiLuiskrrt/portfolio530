@@ -327,11 +327,13 @@ footer p {
   display: flex;
   width: 80%;
   margin: 0 auto;
+  height: 90vh;
 }
 .hero {
   display: flex;
   flex-direction: column;
   max-width: 50%;
+  justify-content: center;
 }
 .svg_container {
   width: 50%;
