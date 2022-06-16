@@ -341,6 +341,7 @@ footer p {
 }
 .svg {
   width: 80%;
+  margin-bottom: 3em;
 }
 @media (max-width: 810px) {
   .hero_container {
