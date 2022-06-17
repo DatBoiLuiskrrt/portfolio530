@@ -33,17 +33,24 @@ header ul {
   padding-right: 4em;
   display: flex;
   align-items: center;
+  list-style: none;
 }
 header ul li {
   padding-right: 2em;
 }
-header ul a {
+a {
+  color: #ecebff;
+}
+a:hover {
+  color: #222222;
+}
+.hire {
   color: #ecebff;
   background-color: #7400b8;
   padding: 0.5em 1em;
   border-radius: 10px;
 }
-header ul a:hover {
+.hire:hover {
   background-color: #a342db;
 }
 body {
